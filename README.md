@@ -91,4 +91,5 @@ This comparison highlights how transformer models for vision tasks have evolved,
 
 
 # Traing & Testing Accuracy & Loss Curves 
+![Alt Text](graph.jpg)
 

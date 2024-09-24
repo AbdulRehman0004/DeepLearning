@@ -7,7 +7,7 @@ This repository compares various transformer-based models for image classificati
 ---
 
 ## 1. **ViT (Vision Transformer)**
-- **Release Year:** 2020
+- **Release Year:** 2020 
 - **Key Innovation:** ViT directly applies the Transformer architecture to image classification by splitting images into patches treated as tokens, enabling the use of self-attention.
 - **Improvements:**
   - First model to apply pure Transformers to vision tasks.
@@ -15,6 +15,7 @@ This repository compares various transformer-based models for image classificati
 - **Limitations:**
   - Requires massive datasets for effective training.
   - Less effective on smaller datasets like CIFAR-10/100.
+- **Link to Paper:** [ViT Paper (2020)](https://arxiv.org/abs/2010.11929)
 
 ---
 
@@ -27,6 +28,7 @@ This repository compares various transformer-based models for image classificati
 - **Limitations:**
   - Higher computational cost compared to CNNs.
   - Still may require regularization on very small datasets.
+- **Link to Paper:** [DeiT Paper (2020)](https://arxiv.org/abs/2012.12877)
 
 ---
 
@@ -39,6 +41,7 @@ This repository compares various transformer-based models for image classificati
 - **Limitations:**
   - Computationally more expensive than CNNs.
   - Could still struggle with very small datasets.
+- **Link to Paper:** [Swin Transformer Paper (2021)](https://arxiv.org/abs/2103.14030)
 
 ---
 
@@ -50,6 +53,7 @@ This repository compares various transformer-based models for image classificati
 - **Limitations:**
   - Higher memory overhead compared to CNNs.
   - Architectural complexity increases inference time.
+- **Link to Paper:** [Twins-SVT Paper (2021)](https://arxiv.org/abs/2104.13840)
 
 ---
 
@@ -62,7 +66,7 @@ This repository compares various transformer-based models for image classificati
 - **Limitations:**
   - More complex than standard architectures, requiring more memory.
   - Still computationally intensive compared to CNNs.
-
+- **Link to Paper:** [Twins-SVT Paper (2021)](https://arxiv.org/abs/2104.13840)
 ---
 
 ## 6. **CrossViT (Cross-Attention Vision Transformer)**
@@ -74,6 +78,7 @@ This repository compares various transformer-based models for image classificati
 - **Limitations:**
   - Increased model complexity due to the dual-branch structure.
   - More resource-intensive during both training and inference.
+- **Link to Paper:** [CrossViT Paper (2021)](https://arxiv.org/abs/2103.14899)
 
 ---
 

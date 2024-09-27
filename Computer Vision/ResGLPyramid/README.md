@@ -22,7 +22,7 @@ The proposed **ResGLPyramid** model includes:
 - **Global Local Attention Module (GLAM)**: Refines the extracted features and focuses on the most informative regions of the brain for better classification results.
 - **Soften Cross-Entropy (SCE) Loss Function**: Enhances classification confidence and reduces overfitting by managing data points near the decision boundaries.
   
-![Alt Text](Computer Vision/ResGLPyramid/Model Overview.png)
+![Alt Text](Model Overview.png)
 
 ## Dataset
 

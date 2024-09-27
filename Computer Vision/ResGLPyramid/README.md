@@ -21,7 +21,7 @@ The proposed **ResGLPyramid** model includes:
 - **Tri-Convolution Transformer (TCT)**: This module extracts detailed local and global information from the PET images, leveraging the MobileViTv3 architecture.
 - **Global Local Attention Module (GLAM)**: Refines the extracted features and focuses on the most informative regions of the brain for better classification results.
 - **Soften Cross-Entropy (SCE) Loss Function**: Enhances classification confidence and reduces overfitting by managing data points near the decision boundaries.
-![Alt Text](Model Overview.png)
+![Alt Text](Computer Vision/ResGLPyramid/Model Overview.png)
 
 ## Dataset
 

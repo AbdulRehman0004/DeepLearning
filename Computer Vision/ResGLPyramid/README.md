@@ -26,7 +26,7 @@ The proposed **ResGLPyramid** model includes:
 
 ## Dataset
 
-This project uses the publicly available **Alzheimer’s Disease Neuroimaging Initiative (ADNI)** dataset, comprising:
+This project uses the publicly available **Alzheimer’s Disease Neuroimaging Initiative (ADNI)** dataset (You have to request them first to get access for research purpose), comprising:
 - **Subjects**: 212 AD, 290 MCI, and 218 NC (normal cognition) individuals.
 - **Images**: 18F-FDG PET scans of the brain.
 - **Preprocessing**: Performed using the Statistical Parametric Mapping tool (SPM12), including spatial normalization, intensity normalization, and Gaussian smoothing.

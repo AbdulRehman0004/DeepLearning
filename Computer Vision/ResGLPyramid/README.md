@@ -1,6 +1,4 @@
-Here is a GitHub `README.md` file based on the provided paper, *"Early Diagnosis of Alzheimer’s Disease Using 18F-FDG PET With Soften Latent Representation"*:
 
----
 
 # Early Diagnosis of Alzheimer’s Disease Using 18F-FDG PET With Soften Latent Representation
 
@@ -23,10 +21,12 @@ The proposed **ResGLPyramid** model includes:
 - **Tri-Convolution Transformer (TCT)**: This module extracts detailed local and global information from the PET images, leveraging the MobileViTv3 architecture.
 - **Global Local Attention Module (GLAM)**: Refines the extracted features and focuses on the most informative regions of the brain for better classification results.
 - **Soften Cross-Entropy (SCE) Loss Function**: Enhances classification confidence and reduces overfitting by managing data points near the decision boundaries.
+  
+![Alt Text](Model%20Overview.png)
 
 ## Dataset
 
-This project uses the publicly available **Alzheimer’s Disease Neuroimaging Initiative (ADNI)** dataset, comprising:
+This project uses the publicly available **Alzheimer’s Disease Neuroimaging Initiative (ADNI)** dataset (You have to request them first to get access for research purpose), comprising:
 - **Subjects**: 212 AD, 290 MCI, and 218 NC (normal cognition) individuals.
 - **Images**: 18F-FDG PET scans of the brain.
 - **Preprocessing**: Performed using the Statistical Parametric Mapping tool (SPM12), including spatial normalization, intensity normalization, and Gaussian smoothing.
@@ -39,50 +39,25 @@ The proposed **ResGLPyramid** model outperforms existing methods, achieving:
 - **Specificity**: 94.14%
 - **AUC**: Significant improvement in detecting MCI and AD compared to state-of-the-art methods.
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/username/repo-name.git
-   cd repo-name
-   ```
-
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Download and preprocess the ADNI dataset as per the instructions.
-
-## Usage
-
-To train the model:
-```bash
-python train.py --data_path <path_to_dataset>
-```
-
-To test the model:
-```bash
-python test.py --model_path <path_to_model>
-```
-
 ## Citation
 
 If you use this code, please cite the paper:
 
 ```
-@article{Rehman2024ADDiagnosis,
-  title={Early Diagnosis of Alzheimer’s Disease Using 18F-FDG PET With Soften Latent Representation},
-  author={Abdul Rehman, Myung-Kyu Yi, Abdul Majeed, and Seong Oun Hwang},
-  journal={IEEE Access},
-  year={2024}
-}
+@ARTICLE{10570178,
+  author={Rehman, Abdul and Yi, Myung-Kyu and Majeed, Abdul and Hwang, Seong Oun},
+  journal={IEEE Access}, 
+  title={Early Diagnosis of Alzheimer’s Disease Using 18F-FDG PET With Soften Latent Representation}, 
+  year={2024},
+  volume={12},
+  number={},
+  pages={87923-87933},
+  keywords={Feature extraction;Accuracy;Convolutional neural networks;Positron emission tomography;Brain modeling;Transformers;Alzheimer's disease;Deep learning;18F-FDG PET;Alzheimer’s disease;deep learning;global feature representation;local feature representation;MobileViT},
+  doi={10.1109/ACCESS.2024.3418508}}
+
 ```
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
-
-You can adjust this template based on the specifics of your implementation or repository structure.

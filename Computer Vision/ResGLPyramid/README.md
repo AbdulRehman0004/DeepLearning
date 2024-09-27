@@ -1,6 +1,4 @@
-Here is a GitHub `README.md` file based on the provided paper, *"Early Diagnosis of Alzheimer’s Disease Using 18F-FDG PET With Soften Latent Representation"*:
 
----
 
 # Early Diagnosis of Alzheimer’s Disease Using 18F-FDG PET With Soften Latent Representation
 
@@ -39,33 +37,6 @@ The proposed **ResGLPyramid** model outperforms existing methods, achieving:
 - **Specificity**: 94.14%
 - **AUC**: Significant improvement in detecting MCI and AD compared to state-of-the-art methods.
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/username/repo-name.git
-   cd repo-name
-   ```
-
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Download and preprocess the ADNI dataset as per the instructions.
-
-## Usage
-
-To train the model:
-```bash
-python train.py --data_path <path_to_dataset>
-```
-
-To test the model:
-```bash
-python test.py --model_path <path_to_model>
-```
-
 ## Citation
 
 If you use this code, please cite the paper:
@@ -83,6 +54,3 @@ If you use this code, please cite the paper:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
-
-You can adjust this template based on the specifics of your implementation or repository structure.

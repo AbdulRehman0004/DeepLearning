@@ -44,12 +44,17 @@ The proposed **ResGLPyramid** model outperforms existing methods, achieving:
 If you use this code, please cite the paper:
 
 ```
-@article{Rehman2024ADDiagnosis,
-  title={Early Diagnosis of Alzheimer’s Disease Using 18F-FDG PET With Soften Latent Representation},
-  author={Abdul Rehman, Myung-Kyu Yi, Abdul Majeed, and Seong Oun Hwang},
-  journal={IEEE Access},
-  year={2024}
-}
+@ARTICLE{10570178,
+  author={Rehman, Abdul and Yi, Myung-Kyu and Majeed, Abdul and Hwang, Seong Oun},
+  journal={IEEE Access}, 
+  title={Early Diagnosis of Alzheimer’s Disease Using 18F-FDG PET With Soften Latent Representation}, 
+  year={2024},
+  volume={12},
+  number={},
+  pages={87923-87933},
+  keywords={Feature extraction;Accuracy;Convolutional neural networks;Positron emission tomography;Brain modeling;Transformers;Alzheimer's disease;Deep learning;18F-FDG PET;Alzheimer’s disease;deep learning;global feature representation;local feature representation;MobileViT},
+  doi={10.1109/ACCESS.2024.3418508}}
+
 ```
 
 ## License

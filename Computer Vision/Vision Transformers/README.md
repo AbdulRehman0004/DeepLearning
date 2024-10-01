@@ -1,5 +1,3 @@
-# DeepLearning
-
 # Vision Transformer Model Comparison
 
 This repository compares various transformer-based models for image classification tasks on datasets like CIFAR-10 and CIFAR-100. Below is a brief technical discussion of each model, including key innovations, improvements, and limitations.

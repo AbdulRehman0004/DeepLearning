@@ -6,6 +6,8 @@ This repository contains the implementation of a deep learning-based system for 
 
 We propose a novel methodology for classifying X-ray images into normal, COVID-19, and viral pneumonia categories. Our approach utilizes transfer learning with pre-trained convolutional neural networks, specifically ResNET50v2, for feature extraction. We then apply feature reduction techniques and classification algorithms to achieve high accuracy in both binary and triple classification tasks.
 
+## Block Diagram
+![Alt Text](block%20diagram.PNG)
 ## Key Features
 
 - Deep feature extraction using transfer-learned ResNET50v2

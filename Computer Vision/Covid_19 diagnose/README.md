@@ -35,10 +35,42 @@ Sources: [Dr. Joseph Paul Cohen and Paul Morrison's repository](https://github.c
 5. Feature fusion
 6. Classification using Fine-KNN (binary) and Medium Gaussian SVM (triple)
 
+
 ## Results
+
+Our proposed method achieved high accuracy in both binary and triple classification tasks:
 
 - Binary classification (normal vs. COVID-19): 99.5% accuracy
 - Triple classification (normal vs. COVID-19 vs. viral pneumonia): 95.5% accuracy
+
+### Detailed Results
+
+#### Binary Classification (Normal vs. COVID-19)
+
+| Features | Classifier | Accuracy | Sensitivity | Specificity | PPV | NPV | F1-score |
+|----------|------------|----------|-------------|-------------|-----|-----|----------|
+| ResNET50v2 (FC layer) | Linear SVM | 99.50% | 99.50% | 99.50% | 99.21% | 99.30% | 99.50% |
+| ResNET50v2 reduced with ANOVA | Fine KNN | 98.40% | 98.60% | 98.00% | 95.70% | 97.07% | 98.30% |
+| ResNET50v2 reduced with MIFS | Cubic SVM | 97.90% | 97.70% | 98.10% | 97.25% | 98.05% | 98.05% |
+| ResNET50v2 reduced with CHI | Cubic SVM | 96.40% | 96.40% | 97.40% | 97.60% | 96.81% | 96.81% |
+| ResNet50v2 with fusion of (ANOVA + CHI) | Fine KNN | 99.00% | 99.00% | 99.00% | 93.70% | 94.83% | 94.83% |
+| ResNet50v2 with fusion of (MIFS + CHI) | Weighted KNN | 97.70% | 96.40% | 99.50% | 94.00% | 94.24% | 94.24% |
+| ResNet50v2 with fusion of (MIFS + ANOVA) | Fine KNN | 99.50% | 99.00% | 99.50% | 99.60% | 99.35% | 99.35% |
+
+#### Triple Classification (Normal vs. COVID-19 vs. Viral Pneumonia)
+
+| Features | Classifier | Accuracy | Sensitivity | Specificity | PPV | NPV | F1-score |
+|----------|------------|----------|-------------|-------------|-----|-----|----------|
+| ResNET50_v2 (FC Layer) | Ensemble | 95.10% | 95.37% | 97.51% | 95.28% | 97.57% | 95.31% |
+| ResNET50v2 reduced with ANOVA | Cubic SVM | 92.40% | 92.64% | 95.94% | 92.61% | 96.16% | 92.62% |
+| ResNET50v2 reduced with MIFS | CUBIC SVM | 92.20% | 92.42% | 95.93% | 92.39% | 96.04% | 92.43% |
+| ResNET50v2 reduced with CHI | Quadratic SVM | 91.90% | 92.03% | 95.73% | 92.08% | 95.87% | 92.05% |
+| ResNet50v2 with fusion of (ANOVA + CHI) | Quadratic SVM | 92.40% | 92.62% | 96.04% | 92.64% | 96.16% | 92.63% |
+| ResNet50v2 with fusion of (MIFS + CHI) | Gaussian SVM | 95.50% | 95.66% | 97.50% | 95.65% | 97.75% | 95.75% |
+| ResNet50v2 with fusion of (MIFS + ANOVA) | Quadratic SVM | 92.30% | 92.59% | 95.97% | 92.62% | 96.12% | 92.59% |
+
+These results demonstrate the effectiveness of our proposed method in accurately classifying chest X-ray images for COVID-19 diagnosis. The fusion of features, particularly MIFS and ANOVA for binary classification and MIFS and CHI for triple classification yielded the best performance.
+
 
 ## Requirements
 

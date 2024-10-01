@@ -1,6 +1,7 @@
 # COVID-19 X-ray Image Classification
 
-This repository contains the implementation of a deep learning-based system for the rapid diagnosis of COVID-19 using chest X-ray images.
+This repository contains the implementation of a **Computer-aided diagnosis of COVID-19 disease from chest
+X-ray images integrating deep feature extraction** paper published in Expert Systems Wiley Journal.
 
 ## Abstract
 

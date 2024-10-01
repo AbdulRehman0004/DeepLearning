@@ -57,7 +57,5 @@ If you use this code, please cite the paper:
 
 ```
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 

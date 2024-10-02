@@ -107,7 +107,7 @@ python test.py --data_dir ./test_data --weights_path best_feature_extractor.pth 
 - `--num_classes`: Number of output classes.
 - `--batch_size`: Size of the test batch.
 - `--num_workers`: Number of workers for data loading.
-```
+---
 
 ## Requirements
 - Python 3.x

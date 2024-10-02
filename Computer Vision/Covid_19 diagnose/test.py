@@ -7,9 +7,9 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score, classification_report
 import argparse
 
-from model import get_model, load_feature_extractor
-from augmentation import get_val_transform
-from dataloader import get_test_dataset, get_dataloader
+from model.model import get_model, load_feature_extractor
+from augmentation.augmentation import get_val_transform
+from dataloader.dataloader import get_test_dataset, get_dataloader
 
 def select_top_k_features(scores, k=20):
     top_k_indices = np.argsort(scores)[-k:]

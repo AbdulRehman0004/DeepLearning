@@ -3,9 +3,9 @@ import torch.nn as nn
 import argparse
 from tqdm import tqdm
 
-from model import  get_model, load_model
-from augmentation import get_train_transform, get_val_transform
-from dataloader import get_datasets, get_dataloader
+from model.model import  get_model, load_model
+from augmentation.ugmentation import get_train_transform, get_val_transform
+from dataloader.dataloader import get_datasets, get_dataloader
 
 def train_model(model, train_loader, val_loader, criterion, optimizer, device, num_epochs):
     best_val_loss = float('inf')

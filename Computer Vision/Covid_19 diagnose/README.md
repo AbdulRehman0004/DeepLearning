@@ -71,9 +71,13 @@ Our proposed method achieved high accuracy in both binary and triple classificat
 
 These results demonstrate the effectiveness of our proposed method in accurately classifying chest X-ray images for COVID-19 diagnosis. The fusion of features, particularly MIFS and ANOVA for binary classification and MIFS and CHI for triple classification yielded the best performance.
 
+## commandfor training
+python train.py --data_dir ./data --num_classes 2 --batch_size 64 --num_epochs 5 --learning_rate 0.001 --val_split 0.2 --num_workers 4
+
+## command for testing
+python test.py --data_dir ./test_data --weights_path best_feature_extractor.pth --technique anova --num_features 20 --num_classes 2 --batch_size 64 --num_workers 4
 
 ## Requirements
-
 - Python 3.x
 - PyTorch
 - torchvision

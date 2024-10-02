@@ -73,7 +73,7 @@ These results demonstrate the effectiveness of our proposed method in accurately
 
 To include these commands in your `README.md` file, you can use the following format:
 
-```markdown
+
 # Model Training and Testing Instructions
 
 ## Training

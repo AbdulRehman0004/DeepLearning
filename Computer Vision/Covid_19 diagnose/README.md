@@ -71,11 +71,43 @@ Our proposed method achieved high accuracy in both binary and triple classificat
 
 These results demonstrate the effectiveness of our proposed method in accurately classifying chest X-ray images for COVID-19 diagnosis. The fusion of features, particularly MIFS and ANOVA for binary classification and MIFS and CHI for triple classification yielded the best performance.
 
-## commandfor training
-python train.py --data_dir ./data --num_classes 2 --batch_size 64 --num_epochs 5 --learning_rate 0.001 --val_split 0.2 --num_workers 4
+To include these commands in your `README.md` file, you can use the following format:
 
-## command for testing
+```markdown
+# Model Training and Testing Instructions
+
+## Training
+
+To train the model, use the following command:
+```bash
+python train.py --data_dir ./data --num_classes 2 --batch_size 64 --num_epochs 5 --learning_rate 0.001 --val_split 0.2 --num_workers 4
+```
+### Arguments:
+- `--data_dir`: Path to the training data directory.
+- `--num_classes`: Number of output classes (e.g., 2 for binary classification).
+- `--batch_size`: Size of the training batch.
+- `--num_epochs`: Number of training epochs.
+- `--learning_rate`: Learning rate for the optimizer.
+- `--val_split`: Fraction of the data to use for validation.
+- `--num_workers`: Number of workers for data loading.
+
+---
+## Testing
+
+To test the model, use the following command:
+
+```bash
 python test.py --data_dir ./test_data --weights_path best_feature_extractor.pth --technique anova --num_features 20 --num_classes 2 --batch_size 64 --num_workers 4
+```
+## Arguments:
+- `--data_dir`: Path to the test data directory.
+- `--weights_path`: Path to the saved model weights file.
+- `--technique`: Feature selection technique (e.g., `anova`).
+- `--num_features`: Number of features to select.
+- `--num_classes`: Number of output classes.
+- `--batch_size`: Size of the test batch.
+- `--num_workers`: Number of workers for data loading.
+```
 
 ## Requirements
 - Python 3.x

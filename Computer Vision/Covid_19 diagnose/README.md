@@ -8,7 +8,7 @@ X-ray images integrating deep feature extraction** paper published in Expert Sys
 We propose a novel methodology for classifying X-ray images into normal, COVID-19, and viral pneumonia categories. Our approach utilizes transfer learning with pre-trained convolutional neural networks, specifically ResNET50v2, for feature extraction. We then apply feature reduction techniques and classification algorithms to achieve high accuracy in both binary and triple classification tasks.
 
 ## Block Diagram
-![Alt Text](block%20diagram.PNG)
+![Alt Text](images/block%20diagram.PNG)
 ## Key Features
 
 - Deep feature extraction using transfer-learned ResNET50v2

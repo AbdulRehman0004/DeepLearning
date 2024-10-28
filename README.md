@@ -24,29 +24,6 @@ Welcome to my deep-learning research repository! Here, I'm open-sourcing impleme
 - Technical implementation details
 - Performance benchmarks
 
-## 🔬 Research Interest
-
-### Computer Vision
-- Classification
-- Image segmentation
-- Object detection
-- Depth estimation
-
-### Hardware Integration
-- Practical solutions combining software and hardware
-- Optimization for embedded systems
-- Real-world deployment strategies
-
-
-## 🤝 Research Collaboration
-
-I welcome collaboration opportunities in:
-- Medical imaging analysis
-- Computer vision applications
-- Deep learning architecture design
-- Hardware-software integration for practical applications Computer Vision 
-- Performance optimization
-
 
 ## 📫 Contact
 

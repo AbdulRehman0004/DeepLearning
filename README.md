@@ -52,7 +52,7 @@ I welcome collaboration opportunities in:
 
 For research collaboration or questions:
 - Email me at abdulrehmansarwar04@outlook.com
-- Connect on [Linkedin](www.linkedin.com/in/abdul-rehman-204ba41ab)
+- Connect on [Linkedin](https://www.linkedin.com/in/abdul-rehman-204ba41ab)
 
 ## 📚 Citations
 

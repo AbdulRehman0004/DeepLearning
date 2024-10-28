@@ -27,9 +27,10 @@ Welcome to my deep-learning research repository! Here, I'm open-sourcing impleme
 ## 🔬 Research Interest
 
 ### Computer Vision
-- Depth estimation
+- Classification
 - Image segmentation
 - Object detection
+- Depth estimation
 
 ### Hardware Integration
 - Practical solutions combining software and hardware

@@ -59,19 +59,28 @@ For research collaboration or questions:
 If you use this code in your research, please cite our papers:
 
 ```bibtex
-@article{covid19_classification,
-    title={Computer‐aided diagnosis of COVID‐19 disease from chest X‐ray images integrating deep feature extraction},
-    journal={Expert Systems},
-    doi={10.1111/exsy.12919}
-    // Add remaining citation details
+@article{aziz2022computer,
+  title={Computer-aided diagnosis of COVID-19 disease from chest x-ray images integrating deep feature extraction},
+  author={Aziz, Sumair and Khan, Muhammad Umar and Rehman, Abdul and Tariq, Zain and Iqtidar, Khushbakht},
+  journal={Expert Systems},
+  volume={39},
+  number={5},
+  pages={e12919},
+  year={2022},
+  publisher={Wiley Online Library}
 }
 
-@article{alzheimers_diagnosis,
-    title={Early Diagnosis of Alzheimer's Disease Using 18F-FDG PET With Soften Latent Representation},
-    journal={IEEE Access},
-    doi={10.1109/ACCESS.2024.3418508}
-    // Add remaining citation details
-}
+@ARTICLE{10570178,
+  author={Rehman, Abdul and Yi, Myung-Kyu and Majeed, Abdul and Hwang, Seong Oun},
+  journal={IEEE Access}, 
+  title={Early Diagnosis of Alzheimer’s Disease Using 18F-FDG PET With Soften Latent Representation}, 
+  year={2024},
+  volume={12},
+  number={},
+  pages={87923-87933},
+  keywords={Feature extraction;Accuracy;Convolutional neural networks;Positron emission tomography;Brain modeling;Transformers;Alzheimer's disease;Deep learning;18F-FDG PET;Alzheimer’s disease;deep learning;global feature representation;local feature representation;MobileViT},
+  doi={10.1109/ACCESS.2024.3418508}}
+
 ```
 
 Thank you for visiting! Star this repository if you find it useful, and check back regularly for updates!
